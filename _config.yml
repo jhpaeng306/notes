@@ -3,7 +3,7 @@ title: Notes
 description: Jinhee Paeng's academic blog on applied math, neuroscience, and AI.
 baseurl: "/notes"
 url: "https://jhpaeng306.github.io"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-feed
