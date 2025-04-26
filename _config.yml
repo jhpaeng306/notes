@@ -1,6 +1,6 @@
 
 title: Notes
-description: Jinhee Paeng's academic blog on applied math, neuroscience, and AI.
+description: Jinhee Paeng's academic blog
 baseurl: "/notes"
 url: "https://jhpaeng306.github.io"
 remote_theme: just-the-docs/just-the-docs
@@ -11,10 +11,14 @@ plugins:
 
 mathjax: true
 
+collections:
+  topics:
+    output: true
+    permalink: /:collection/:path/
+
 just_the_docs:
-  collections:
-    math:
-      output: true
-      permalink: /:collection/:path/
   search_enabled: true
   nav_sort: case_insensitive
+  toc:
+    min_level: 2
+    max_level: 3

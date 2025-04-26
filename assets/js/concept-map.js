@@ -2,22 +2,29 @@
 document.addEventListener("DOMContentLoaded", function () {
     const data = {
         nodes: [
-            { id: "Linear Algebra" },
-            { id: "Probability" },
-            { id: "SVD" },
-            { id: "PCA" },
-            { id: "Entropy" },
-            { id: "Bayes Rule" }
+            { id: "Vector Spaces", group: "Mathematical Foundations" },
+            { id: "SVD", group: "Mathematical Foundations" },
+            { id: "Eigenvalues", group: "Mathematical Foundations" },
+            { id: "Basic Probability", group: "Statistical Methods" },
+            { id: "Bayes Rule", group: "Statistical Methods" },
+            { id: "Entropy", group: "Statistical Methods" },
+            { id: "Fixed Points", group: "Neural Dynamics" },
+            { id: "Stability", group: "Neural Dynamics" }
         ],
         links: [
-            { source: "Linear Algebra", target: "SVD" },
-            { source: "SVD", target: "PCA" },
-            { source: "Probability", target: "Entropy" },
-            { source: "Probability", target: "Bayes Rule" }
+            { source: "Basic Probability", target: "Bayes Rule" },
+            { source: "Vector Spaces", target: "SVD" },
+            { source: "SVD", target: "Eigenvalues" }
         ]
     };
 
-    const width = 600, height = 400;
+    const width = 800, height = 600;
+    const color = {
+        "Mathematical Foundations": "#aec6cf",
+        "Statistical Methods": "#77dd77",
+        "Neural Dynamics": "#fdfd96"
+    };
+
     const svg = d3.select("#concept-map")
                   .append("svg")
                   .attr("width", width)
@@ -35,13 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .join("line");
 
     const node = svg.append("g")
-        .attr("stroke", "#fff")
-        .attr("stroke-width", 1.5)
         .selectAll("circle")
         .data(data.nodes)
         .join("circle")
         .attr("r", 10)
-        .attr("fill", "steelblue")
+        .attr("fill", d => color[d.group])
         .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
