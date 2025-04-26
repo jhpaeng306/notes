@@ -1,11 +1,10 @@
 
 title: Notes
-description: >- 
-  Blog-style academic notes with math support and concept linking.
+description: Jinhee Paeng's academic blog on applied math, neuroscience, and AI.
 baseurl: "/notes"
 url: "https://jhpaeng306.github.io"
-
 theme: just-the-docs
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

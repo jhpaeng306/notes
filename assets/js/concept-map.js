@@ -1,10 +1,13 @@
 
-// Sample D3.js concept map
 document.addEventListener("DOMContentLoaded", function () {
     const data = {
         nodes: [
-            { id: "Linear Algebra" }, { id: "SVD" }, { id: "PCA" },
-            { id: "Probability" }, { id: "Entropy" }, { id: "Bayes Rule" }
+            { id: "Linear Algebra" },
+            { id: "Probability" },
+            { id: "SVD" },
+            { id: "PCA" },
+            { id: "Entropy" },
+            { id: "Bayes Rule" }
         ],
         links: [
             { source: "Linear Algebra", target: "SVD" },
@@ -21,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   .attr("height", height);
 
     const simulation = d3.forceSimulation(data.nodes)
-        .force("link", d3.forceLink(data.links).id(d => d.id).distance(100))
-        .force("charge", d3.forceManyBody().strength(-400))
+        .force("link", d3.forceLink(data.links).id(d => d.id).distance(120))
+        .force("charge", d3.forceManyBody().strength(-300))
         .force("center", d3.forceCenter(width / 2, height / 2));
 
     const link = svg.append("g")

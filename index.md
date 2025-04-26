@@ -5,9 +5,8 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to Jinhee's Notes
+# Welcome to Notes
 
-Explore topics in applied math, neuroscience, and AI.
+Mathematical explorations across probability, dynamical systems, and AI.
 
-[View Concept Map](concept-map)
-
+[Explore Concept Map](concept-map)
