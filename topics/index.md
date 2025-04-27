@@ -7,10 +7,10 @@ nav_order: 3
 # 📚 Topics Overview
 
 ## Mathematical Foundations
-- [Linear Algebra](../linear-algebra/)
+- [Linear Algebra]({{ site.baseurl }}/topics/linear-algebra/)
 
 ## Statistical Methods
-- [Probability](../probability/)
+- [Probability]({{ site.baseurl }}/topics/probability/)
 
 ## Neural Dynamics
-- [Dynamical Systems](../dynamical-systems/)
+- [Dynamical Systems]({{ site.baseurl }}/topics/dynamical-systems/)
