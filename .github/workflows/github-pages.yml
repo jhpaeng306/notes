@@ -13,9 +13,10 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2'
-    - name: Install Jekyll
+    - name: Install Jekyll and Just the Docs
       run: |
         gem install jekyll
+        gem install just-the-docs
     - name: Build site
       run: jekyll build
     - name: Deploy
