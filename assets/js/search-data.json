@@ -36,7 +36,7 @@
   },"5": {
     "doc": "Vector Spaces",
     "title": "Introduction",
-    "content": "This is the Vector Spaces chapter. [Next →](../02_svd/) ",
+    "content": "This is the Vector Spaces chapter. Next ➡️ ",
     "url": "/notes/topics/linear-algebra/01_vector_spaces/#introduction",
     
     "relUrl": "/topics/linear-algebra/01_vector_spaces/#introduction"
@@ -92,7 +92,7 @@
   },"13": {
     "doc": "Singular Value Decomposition (SVD)",
     "title": "Introduction",
-    "content": "This is the SVD chapter. [← Previous](../01_vector_spaces/) [Next →](../03_eigenvalues/) ",
+    "content": "This is the SVD chapter. ⬅️ Previous Next ➡️ ",
     "url": "/notes/topics/linear-algebra/02_svd/#introduction",
     
     "relUrl": "/topics/linear-algebra/02_svd/#introduction"
@@ -113,7 +113,7 @@
   },"16": {
     "doc": "Eigenvalues and Eigenvectors",
     "title": "Introduction",
-    "content": "This is the Eigenvalues chapter. ",
+    "content": "This is the Eigenvalues chapter. ⬅️ Previous ",
     "url": "/notes/topics/linear-algebra/03_eigenvalues/#introduction",
     
     "relUrl": "/topics/linear-algebra/03_eigenvalues/#introduction"
