@@ -12,13 +12,12 @@ jobs:
     - uses: actions/checkout@v4
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2'  # Use stable version, not 3.1
-    - name: Install dependencies
+        ruby-version: '3.2'
+    - name: Install Jekyll
       run: |
-        gem install bundler
-        bundle install || true
+        gem install jekyll
     - name: Build site
-      run: bundle exec jekyll build
+      run: jekyll build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
