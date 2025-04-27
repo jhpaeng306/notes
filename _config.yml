@@ -1,4 +1,3 @@
-
 title: Notes
 description: Jinhee Paeng's academic blog
 baseurl: "/notes"
@@ -14,9 +13,13 @@ mathjax: true
 collections:
   topics:
     output: true
-    permalink: /:collection/:path/
+    permalink: /topics/:path/
 
 just_the_docs:
+  collections:
+    topics:
+      output: true
+      permalink: /topics/:path/
   search_enabled: true
   nav_sort: case_insensitive
   toc:

@@ -2,7 +2,9 @@
 layout: default
 title: Fixed Points
 parent: Dynamical Systems
+grand_parent: Mathematical Foundations
 nav_order: 1
+toc: true
 ---
 
 # Fixed Points

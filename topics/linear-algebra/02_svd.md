@@ -1,12 +1,20 @@
 ---
 layout: default
-title: Svd
+title: SVD
 parent: Linear Algebra
-nav_order: 1
+grand_parent: Mathematical Foundations
+nav_order: 2
+toc: true
 ---
 
-# Svd
+# Singular Value Decomposition
 
 ## Introduction
 
-This is the Svd chapter.
+This is the SVD chapter.
+
+---
+
+<div class="prev-next-buttons">
+[← Previous](../01_vector_spaces/) [Next →](../03_eigenvalues/)
+</div>

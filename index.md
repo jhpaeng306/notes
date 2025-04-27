@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Welcome
@@ -7,7 +6,7 @@ nav_order: 1
 
 # 📚 Welcome to Jinhee's Notes
 
-Explore mathematical foundations, statistical methods, and neural dynamics.
+Explore deep ideas in **Mathematical Foundations**, **Statistical Methods**, and **Neural Dynamics**.
 
 ---
 

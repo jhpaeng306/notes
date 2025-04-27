@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const data = {
         nodes: [
@@ -12,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
             { id: "Stability", group: "Neural Dynamics" }
         ],
         links: [
-            { source: "Basic Probability", target: "Bayes Rule" },
             { source: "Vector Spaces", target: "SVD" },
-            { source: "SVD", target: "Eigenvalues" }
+            { source: "SVD", target: "Eigenvalues" },
+            { source: "Basic Probability", target: "Bayes Rule" }
         ]
     };
 
