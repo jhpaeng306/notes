@@ -1,6 +1,6 @@
 title: Notes
 description: Jinhee Paeng's academic blog
-baseurl: "/notes-blog"
+baseurl: "/notes"
 url: "https://jhpaeng306.github.io"
 
 theme: just-the-docs
