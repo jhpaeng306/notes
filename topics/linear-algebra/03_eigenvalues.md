@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Eigenvalues
+title: Eigenvalues and Eigenvectors
 parent: Linear Algebra
-nav_order: 1
+grand_parent: Mathematical Foundations
+nav_order: 3
+toc: true
+permalink: /topics/linear-algebra/03_eigenvalues/
 ---
 
 # Eigenvalues

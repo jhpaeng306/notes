@@ -5,6 +5,7 @@ parent: Linear Algebra
 grand_parent: Mathematical Foundations
 nav_order: 1
 toc: true
+permalink: /topics/linear-algebra/01_vector_spaces/
 ---
 
 # Vector Spaces

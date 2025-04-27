@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Entropy
+title: Entropy and Information Theory
 parent: Probability
-nav_order: 1
+grand_parent: Statistical Methods
+nav_order: 3
+toc: true
+permalink: /topics/probability/03_entropy/
 ---
 
 # Entropy

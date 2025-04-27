@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Stability
+title: Stability Analysis
 parent: Dynamical Systems
-nav_order: 1
+grand_parent: Neural Dynamics
+nav_order: 2
+toc: true
+permalink: /topics/dynamical-systems/02_stability/
 ---
 
 # Stability
