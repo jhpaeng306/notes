@@ -13,3 +13,10 @@ permalink: /topics/linear-algebra/03_eigenvalues/
 ## Introduction
 
 This is the Eigenvalues chapter.
+
+---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="{{ site.baseurl }}/topics/linear-algebra/02_svd/" style="text-decoration: none;">⬅️ Previous</a>
+  <span></span> <!-- no next link -->
+</div>

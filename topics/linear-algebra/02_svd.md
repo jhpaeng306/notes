@@ -16,6 +16,7 @@ This is the SVD chapter.
 
 ---
 
-<div class="prev-next-buttons">
-[← Previous](../01_vector_spaces/) [Next →](../03_eigenvalues/)
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="{{ site.baseurl }}/topics/linear-algebra/01_vector_spaces/" style="text-decoration: none;">⬅️ Previous</a>
+  <a href="{{ site.baseurl }}/topics/linear-algebra/03_eigenvalues/" style="text-decoration: none;">Next ➡️</a>
 </div>

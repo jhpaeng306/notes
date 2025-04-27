@@ -16,6 +16,7 @@ This is the Vector Spaces chapter.
 
 ---
 
-<div class="prev-next-buttons">
-[Next →](../02_svd/)
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <span></span> <!-- no previous link -->
+  <a href="{{ site.baseurl }}/topics/linear-algebra/02_svd/" style="text-decoration: none;">Next ➡️</a>
 </div>
