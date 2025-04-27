@@ -11,9 +11,9 @@ Explore deep ideas in **Mathematical Foundations**, **Statistical Methods**, and
 ---
 
 ## ✨ Explore Topics
-- [Linear Algebra]({{ site.baseurl }}/topics/linear-algebra/)
-- [Probability]({{ site.baseurl }}/topics/probability/)
-- [Dynamical Systems]({{ site.baseurl }}/topics/dynamical-systems/)
+- [Linear Algebra](topics/linear-algebra/)
+- [Probability](topics/probability/)
+- [Dynamical Systems](topics/dynamical-systems/)
 
 ## 🧠 Concept Map
 [View Concept Map](concept-map)
