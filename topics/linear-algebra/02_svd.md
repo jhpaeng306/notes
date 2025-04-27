@@ -29,7 +29,19 @@ This is the SVD chapter.
 
 ---
 
+{% assign siblings = site.pages | where: "parent", page.parent | sort: "nav_order" %}
+{% assign current_index = siblings | index_of: page %}
+
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="{{ site.baseurl }}/topics/linear-algebra/01_vector_spaces/" style="text-decoration: none;">⬅️ Previous</a>
-  <a href="{{ site.baseurl }}/topics/linear-algebra/03_eigenvalues/" style="text-decoration: none;">Next ➡️</a>
+  {% if current_index > 0 %}
+    <a href="{{ siblings[current_index | minus: 1].url | relative_url }}" style="text-decoration: none;">⬅️ Previous</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  {% if current_index < siblings.size | minus: 1 %}
+    <a href="{{ siblings[current_index | plus: 1].url | relative_url }}" style="text-decoration: none;">Next ➡️</a>
+  {% else %}
+    <span></span>
+  {% endif %}
 </div>
