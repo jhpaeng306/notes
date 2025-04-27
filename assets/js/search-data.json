@@ -92,179 +92,200 @@
   },"13": {
     "doc": "Singular Value Decomposition (SVD)",
     "title": "Introduction",
-    "content": "This is the SVD chapter. ⬅️ Previous Next ➡️ ",
+    "content": "This is the SVD chapter. ",
     "url": "/notes/topics/linear-algebra/02_svd/#introduction",
     
     "relUrl": "/topics/linear-algebra/02_svd/#introduction"
   },"14": {
+    "doc": "Singular Value Decomposition (SVD)",
+    "title": "Introduction2",
+    "content": "This is the SVD chapter. ",
+    "url": "/notes/topics/linear-algebra/02_svd/#introduction2",
+    
+    "relUrl": "/topics/linear-algebra/02_svd/#introduction2"
+  },"15": {
+    "doc": "Singular Value Decomposition (SVD)",
+    "title": "Introduction4",
+    "content": "This is the SVD chapter. ",
+    "url": "/notes/topics/linear-algebra/02_svd/#introduction4",
+    
+    "relUrl": "/topics/linear-algebra/02_svd/#introduction4"
+  },"16": {
+    "doc": "Singular Value Decomposition (SVD)",
+    "title": "Introductionn",
+    "content": "This is the SVD chapter. ⬅️ Previous Next ➡️ ",
+    "url": "/notes/topics/linear-algebra/02_svd/#introductionn",
+    
+    "relUrl": "/topics/linear-algebra/02_svd/#introductionn"
+  },"17": {
     "doc": "Singular Value Decomposition (SVD)",
     "title": "Singular Value Decomposition (SVD)",
     "content": " ",
     "url": "/notes/topics/linear-algebra/02_svd/",
     
     "relUrl": "/topics/linear-algebra/02_svd/"
-  },"15": {
+  },"18": {
     "doc": "Eigenvalues and Eigenvectors",
     "title": "Eigenvalues",
     "content": " ",
     "url": "/notes/topics/linear-algebra/03_eigenvalues/#eigenvalues",
     
     "relUrl": "/topics/linear-algebra/03_eigenvalues/#eigenvalues"
-  },"16": {
+  },"19": {
     "doc": "Eigenvalues and Eigenvectors",
     "title": "Introduction",
     "content": "This is the Eigenvalues chapter. ⬅️ Previous ",
     "url": "/notes/topics/linear-algebra/03_eigenvalues/#introduction",
     
     "relUrl": "/topics/linear-algebra/03_eigenvalues/#introduction"
-  },"17": {
+  },"20": {
     "doc": "Eigenvalues and Eigenvectors",
     "title": "Eigenvalues and Eigenvectors",
     "content": " ",
     "url": "/notes/topics/linear-algebra/03_eigenvalues/",
     
     "relUrl": "/topics/linear-algebra/03_eigenvalues/"
-  },"18": {
+  },"21": {
     "doc": "Entropy and Information Theory",
     "title": "Entropy",
     "content": " ",
     "url": "/notes/topics/probability/03_entropy/#entropy",
     
     "relUrl": "/topics/probability/03_entropy/#entropy"
-  },"19": {
+  },"22": {
     "doc": "Entropy and Information Theory",
     "title": "Introduction",
     "content": "This is the Entropy chapter. ",
     "url": "/notes/topics/probability/03_entropy/#introduction",
     
     "relUrl": "/topics/probability/03_entropy/#introduction"
-  },"20": {
+  },"23": {
     "doc": "Entropy and Information Theory",
     "title": "Entropy and Information Theory",
     "content": " ",
     "url": "/notes/topics/probability/03_entropy/",
     
     "relUrl": "/topics/probability/03_entropy/"
-  },"21": {
+  },"24": {
     "doc": "Concept Map",
     "title": "🗺 Concept Map",
     "content": " ",
     "url": "/notes/concept-map.html#-concept-map",
     
     "relUrl": "/concept-map.html#-concept-map"
-  },"22": {
+  },"25": {
     "doc": "Concept Map",
     "title": "Concept Map",
     "content": " ",
     "url": "/notes/concept-map.html",
     
     "relUrl": "/concept-map.html"
-  },"23": {
+  },"26": {
     "doc": "Probability",
     "title": "🎲 Probability",
     "content": "Explore key concepts in Probability: . | Basic Probability | Bayes’ Rule | Entropy and Information Theory | . ",
     "url": "/notes/topics/probability/#-probability",
     
     "relUrl": "/topics/probability/#-probability"
-  },"24": {
+  },"27": {
     "doc": "Probability",
     "title": "Probability",
     "content": " ",
     "url": "/notes/topics/probability/",
     
     "relUrl": "/topics/probability/"
-  },"25": {
+  },"28": {
     "doc": "Dynamical Systems",
     "title": "🌊 Dynamical Systems",
     "content": "Explore key concepts in Dynamical Systems: . | Fixed Points | Stability Analysis | . ",
     "url": "/notes/topics/dynamical-systems/#-dynamical-systems",
     
     "relUrl": "/topics/dynamical-systems/#-dynamical-systems"
-  },"26": {
+  },"29": {
     "doc": "Dynamical Systems",
     "title": "Dynamical Systems",
     "content": " ",
     "url": "/notes/topics/dynamical-systems/",
     
     "relUrl": "/topics/dynamical-systems/"
-  },"27": {
+  },"30": {
     "doc": "Linear Algebra",
     "title": "📚 Linear Algebra",
     "content": "Explore key concepts in Linear Algebra: . | Vector Spaces | Singular Value Decomposition (SVD) | Eigenvalues and Eigenvectors | . ",
     "url": "/notes/topics/linear-algebra/#-linear-algebra",
     
     "relUrl": "/topics/linear-algebra/#-linear-algebra"
-  },"28": {
+  },"31": {
     "doc": "Linear Algebra",
     "title": "Linear Algebra",
     "content": " ",
     "url": "/notes/topics/linear-algebra/",
     
     "relUrl": "/topics/linear-algebra/"
-  },"29": {
+  },"32": {
     "doc": "Topics Overview",
     "title": "📚 Topics Overview",
     "content": " ",
     "url": "/notes/topics/#-topics-overview",
     
     "relUrl": "/topics/#-topics-overview"
-  },"30": {
+  },"33": {
     "doc": "Topics Overview",
     "title": "Mathematical Foundations",
     "content": ". | Linear Algebra | . ",
     "url": "/notes/topics/#mathematical-foundations",
     
     "relUrl": "/topics/#mathematical-foundations"
-  },"31": {
+  },"34": {
     "doc": "Topics Overview",
     "title": "Statistical Methods",
     "content": ". | Probability | . ",
     "url": "/notes/topics/#statistical-methods",
     
     "relUrl": "/topics/#statistical-methods"
-  },"32": {
+  },"35": {
     "doc": "Topics Overview",
     "title": "Neural Dynamics",
     "content": ". | Dynamical Systems | . ",
     "url": "/notes/topics/#neural-dynamics",
     
     "relUrl": "/topics/#neural-dynamics"
-  },"33": {
+  },"36": {
     "doc": "Topics Overview",
     "title": "Topics Overview",
     "content": " ",
     "url": "/notes/topics/",
     
     "relUrl": "/topics/"
-  },"34": {
+  },"37": {
     "doc": "Welcome",
     "title": "📚 Welcome to Jinhee’s Notes",
     "content": "Explore deep ideas in Mathematical Foundations, Statistical Methods, and Neural Dynamics. ",
     "url": "/notes/#-welcome-to-jinhees-notes",
     
     "relUrl": "/#-welcome-to-jinhees-notes"
-  },"35": {
+  },"38": {
     "doc": "Welcome",
     "title": "✨ Explore Topics",
     "content": ". | Linear Algebra | Probability | Dynamical Systems | . ",
     "url": "/notes/#-explore-topics",
     
     "relUrl": "/#-explore-topics"
-  },"36": {
+  },"39": {
     "doc": "Welcome",
     "title": "🧠 Concept Map",
     "content": "View Concept Map . ",
     "url": "/notes/#-concept-map",
     
     "relUrl": "/#-concept-map"
-  },"37": {
+  },"40": {
     "doc": "Welcome",
     "title": "🖋 Recent Updates",
     "content": "Coming soon! . ",
     "url": "/notes/#-recent-updates",
     
     "relUrl": "/#-recent-updates"
-  },"38": {
+  },"41": {
     "doc": "Welcome",
     "title": "Welcome",
     "content": " ",
