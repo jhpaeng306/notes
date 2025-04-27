@@ -2,7 +2,8 @@ title: Notes
 description: Jinhee Paeng's academic blog
 baseurl: "/notes"
 url: "https://jhpaeng306.github.io"
-remote_theme: just-the-docs/just-the-docs
+
+theme: just-the-docs
 
 plugins:
   - jekyll-feed
