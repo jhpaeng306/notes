@@ -8,6 +8,7 @@ nav_order: 1
 
 Explore deep ideas in **Mathematical Foundations**, **Statistical Methods**, and **Neural Dynamics**.
 
+---
 
 ## ✨ Explore Topics
 - [Linear Algebra](topics/linear-algebra/)
