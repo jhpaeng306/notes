@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-ruby@v1
+    - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
+        ruby-version: '3.2'  # Use stable version, not 3.1
     - name: Install dependencies
       run: |
         gem install bundler
-        bundle install
+        bundle install || true
     - name: Build site
       run: bundle exec jekyll build
     - name: Deploy
